@@ -2,6 +2,8 @@ import sqlite3
 
 # from flask import current_app, g
 
+# TODO: handle missing database -- sqlite3.OperationalError
+
 
 def get_db():
     # if "db" not in g:
